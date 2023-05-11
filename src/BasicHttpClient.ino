@@ -8,8 +8,8 @@
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const char *PUB_DATA_TOPIC = "test/message";
-// const char *PUB_DATA_TOPIC = "v1/events/data/update/json";
+// const char *PUB_DATA_TOPIC = "test/message";
+const char *PUB_DATA_TOPIC = "v1/events/data/update/json";
 
 const char* ssid        = "Bannok Kiang Chan3";
 const char* password    = "0818462519";
